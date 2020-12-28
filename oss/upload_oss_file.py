@@ -1,6 +1,7 @@
-# encoding=utf-8
+# -*- coding: UTF-8 -*-
 __author__ = "lmy"
 
+import time
 import oss2
 
 yourAccessKeyId = "yourAccessKeyId"  # 通过账号获得accessKey
