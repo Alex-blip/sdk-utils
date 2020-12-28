@@ -13,7 +13,7 @@ def send_sms_single(phone_num,  template_param_list):
     """
     单条发送短信
     :param phone_num: 手机号
-    :param template_param_list: 短信模板所需参数列表，例如:【验证码：{1}，描述：{2}】，则传递参数 [888,666]按顺序去格式化模板
+    :param template_param_list: 短信模板所需参数列表，例如:[123456,543210]
     :return:
     """
     sender = SmsSingleSender(appId, appKey)
